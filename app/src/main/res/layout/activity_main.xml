@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/ColorBlue">
+    <androidx.cardview.widget.CardView
+        android:layout_margin="35dp"
+        app:cardCornerRadius="30dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <TextView
+            android:layout_marginTop="50dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="LOGIN"
+            android:textSize="35sp"
+            android:textStyle="bold"
+            android:textColor="@color/black"
+            android:layout_gravity="center_horizontal"
+            />
+        <TextView
+            android:layout_marginTop="75dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="_____________"
+            android:textSize="35sp"
+            android:layout_gravity="center_horizontal"
+            />
+        <TextView
+            android:layout_marginTop="85dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="________"
+            android:textSize="35sp"
+            android:layout_gravity="center_horizontal"
+            />
+        <TextView
+            android:layout_marginTop="610dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="© Kasir Apps by Kelompok7 2021"
+            android:textSize="12sp"
+            android:layout_gravity="center_horizontal"
+            />
+        <EditText
+            android:hint="Username"
+            android:id="@+id/username"
+            android:layout_width="300dp"
+            android:layout_marginTop="155dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:background="@drawable/edittextstyle" />
+        <EditText
+            android:hint="Password"
+            android:layout_width="300dp"
+            android:id="@+id/password"
+            android:layout_marginTop="225dp"
+            android:inputType="textPassword"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:background="@drawable/edittextstyle" />
+
+        <Button
+            android:id="@+id/btnlogin"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="320dp"
+            android:background="@drawable/buttonstyle"
+            android:text="LOGIN"
+            android:textColor="@color/ColorWhite" />
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+
+        </LinearLayout>
+
+
+
+    </androidx.cardview.widget.CardView>
+
+</LinearLayout>

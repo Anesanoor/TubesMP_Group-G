@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.core.widget.NestedScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    >
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="800dp"
+        android:background="@color/ColorBlue"
+        android:orientation="vertical">
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="685dp"
+            android:layout_margin="30dp"
+            app:cardCornerRadius="30dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@color/white"
+                android:orientation="vertical">
+
+            </LinearLayout>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="15dp"
+                android:drawableLeft="@drawable/ic_baseline_info_24"
+                android:text=" Info Aplikasi"
+                android:textColor="@color/black"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="left"
+                android:layout_marginLeft="30dp"
+                android:layout_marginTop="70dp"
+                android:text="Sucream Apps"
+                android:textColor="@color/black"
+                android:textSize="15sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="left"
+                android:layout_marginLeft="30dp"
+                android:layout_marginTop="100dp"
+                android:layout_marginRight="30dp"
+                android:text="      Aplikasi kasir ini dibuat untuk membantu proses bisnis yang terjadi pada kedai sucream, dengan adanya aplikasi ini terbukti bisa mempermudah petugas kedai dalam menghitung dan juga mencatat transaksi penjualan yang terjadi setiap harinya pada kedai.
+"
+
+                android:textSize="12sp" />
+
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="left"
+                android:layout_marginLeft="30dp"
+                android:layout_marginTop="190dp"
+                android:text="About Us"
+                android:textColor="@color/black"
+                android:textSize="15sp"
+                android:textStyle="bold" />
+
+            <ImageView
+                android:layout_width="85dp"
+                android:layout_height="85dp"
+                android:layout_gravity="left"
+                android:layout_marginLeft="30dp"
+                android:layout_marginTop="225dp"
+                android:background="@drawable/dicky"
+                android:padding="10dp"/>
+
+            <TextView
+                android:layout_width="216dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="left"
+                android:layout_marginLeft="125dp"
+                android:layout_marginTop="220dp"
+                android:background="@drawable/edittextstyle2"
+                android:text="Dicky Setiawan\n3411181091\nDSE B\nInformatika 2018"
+                android:textSize="12sp"
+                android:textStyle="bold" />
+
+            <ImageView
+                android:layout_width="85dp"
+                android:layout_height="85dp"
+                android:layout_gravity="left"
+                android:layout_marginLeft="30dp"
+                android:layout_marginTop="325dp"
+                android:background="@drawable/nesa"
+                android:padding="10dp"/>
+
+            <TextView
+                android:layout_width="216dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="left"
+                android:layout_marginLeft="125dp"
+                android:layout_marginTop="320dp"
+                android:background="@drawable/edittextstyle2"
+                android:text="Anesa Noor Aulia\n3411181109\nDSE B\nInformatika 2018"
+                android:textSize="12sp"
+                android:textStyle="bold" />
+
+            <ImageView
+                android:layout_width="85dp"
+                android:layout_height="85dp"
+                android:layout_gravity="left"
+                android:layout_marginLeft="30dp"
+                android:layout_marginTop="425dp"
+                android:background="@drawable/dika"
+                android:padding="10dp"/>
+
+            <TextView
+                android:layout_width="216dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="left"
+                android:layout_marginLeft="125dp"
+                android:layout_marginTop="420dp"
+                android:background="@drawable/edittextstyle2"
+                android:text="Andika Dwi Cipta\n3411181120\nDSE B\nInformatika 2018"
+                android:textSize="12sp"
+                android:textStyle="bold" />
+            <TextView
+                android:layout_marginTop="640dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="© Kasir Apps by Kelompok7 2021"
+                android:textSize="12sp"
+                android:layout_gravity="center_horizontal"
+                />
+        </androidx.cardview.widget.CardView>
+    </LinearLayout>
+</androidx.core.widget.NestedScrollView>

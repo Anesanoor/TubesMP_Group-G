@@ -1,0 +1,265 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@color/ColorBlue"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout
+
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        tools:context="com.example.android.justjava.MainActivity">
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:hint="Masukan nama anda"
+            android:id="@+id/edt_name"
+            android:inputType="text"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:textColor="@color/white"
+            android:text="DAFTAR MENU"
+            android:textSize="25dp" />
+        <TextView
+            android:layout_marginTop="-10dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:textColor="@color/white"
+            android:text="___________________________"
+            android:textSize="15dp" />
+        <TextView
+            android:layout_marginTop="-7dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:textColor="@color/white"
+            android:text="___________________"
+            android:textSize="15dp" />
+        <TextView
+            android:layout_marginTop="-7dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:textColor="@color/white"
+            android:text=""
+            android:textSize="15dp" />
+        <TableLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:stretchColumns="0">
+            <TableRow>
+
+                <CheckBox
+                    android:id="@+id/Vanila_checkbox"
+                    android:layout_width="wrap_content"
+                    android:background="@color/white"
+                    android:layout_height="wrap_content"
+                    android:paddingLeft="16dp"
+                    android:text="Vanila"
+                    android:textSize="15sp" />
+                <CheckBox
+                    android:id="@+id/Strawberry_checkbox"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@color/white"
+                    android:text="    Strawberry"
+                    android:paddingRight="70dp"
+                    android:textSize="15sp"/>
+            </TableRow>
+            <TableRow>
+                <CheckBox
+                    android:id="@+id/ChocoOreo_checkbox"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@color/white"
+                    android:text="Choco Oreo"
+                    android:paddingLeft="16dp"
+                    android:textSize="15sp"
+                    />
+
+                <CheckBox
+                    android:id="@+id/MatchaLatte_checkbox"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@color/white"
+                    android:paddingLeft="16dp"
+                    android:text="Matcha Latte"
+                    android:textSize="15sp" />
+            </TableRow>
+
+            <TableRow>
+                <CheckBox
+                    android:id="@+id/Original_checkbox"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@color/white"
+                    android:text="Original"
+                    android:paddingLeft="16dp"
+                    android:textSize="15sp"/>
+                <CheckBox
+                    android:id="@+id/Keju_checkbox"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@color/white"
+                    android:text="Keju"
+                    android:paddingLeft="16dp"
+                    android:textSize="15sp"/>
+            </TableRow>
+
+            <TableRow>
+                <CheckBox
+                    android:id="@+id/Coklat_checkbox"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@color/white"
+                    android:text="Coklat"
+                    android:paddingLeft="16dp"
+                    android:textSize="15sp"/>
+                <CheckBox
+                    android:id="@+id/Kacang_checkbox"
+                    android:layout_width="wrap_content"
+                    android:background="@color/white"
+                    android:layout_height="wrap_content"
+                    android:text="Kacang"
+                    android:paddingLeft="16dp"
+                    android:textSize="15sp"/>
+            </TableRow>
+
+            <TableRow>
+                <CheckBox
+                    android:id="@+id/ChocoAlmond_checkbox"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@color/white"
+                    android:text="Choco Almond"
+                    android:paddingLeft="16dp"
+                    android:textSize="15sp"/>
+                <CheckBox
+                    android:id="@+id/KacangAlmond_checkbox"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@color/white"
+                    android:text="Kacang Almond"
+                    android:paddingLeft="16dp"
+                    android:textSize="15sp"/>
+            </TableRow>
+
+            <TableRow>
+                <CheckBox
+                    android:id="@+id/GreenTea_checkbox"
+                    android:layout_width="wrap_content"
+                    android:background="@color/white"
+                    android:layout_height="wrap_content"
+                    android:text="Green Tea"
+                    android:paddingLeft="16dp"
+                    android:textSize="15sp"/>
+                <CheckBox
+                    android:id="@+id/Oreo_checkbox"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Oreo"
+                    android:background="@color/white"
+                    android:paddingLeft="16dp"
+                    android:textSize="15sp"/>
+            </TableRow>
+        </TableLayout>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/white"
+            android:text="jumlah"
+            android:textSize="20dp"
+            android:textAllCaps="true"
+            android:layout_marginBottom="10dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="20dp"/>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:orientation="horizontal">
+
+            <Button
+                android:layout_width="48dp"
+                android:layout_height="48dp"
+                android:onClick="decrement"
+
+                android:text="-" />
+
+            <TextView
+                android:id="@+id/quantity_textview"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+
+                android:layout_gravity="center"
+                android:paddingLeft="8dp"
+                android:paddingRight="8dp"
+                android:text="0"
+                android:textColor="@color/white"
+                android:textSize="20dp" />
+
+            <Button
+                android:layout_width="48dp"
+                android:layout_height="48dp"
+                android:onClick="increment"
+
+                android:text="+" />
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:textColor="@color/white"
+            android:text="_________________________________________"
+            android:textSize="20dp"
+            android:textAllCaps="true"
+            android:layout_marginTop="7dp"
+            android:layout_marginBottom="2dp" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:textColor="@color/white"
+            android:text="Detail Pemesanan"
+            android:textSize="22dp"
+            android:textAllCaps="true"
+            android:layout_marginTop="8dp"
+            android:layout_marginBottom="2dp" />
+        <TextView
+            android:layout_marginTop="12dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="0"
+            android:textColor="@color/white"
+            android:id="@+id/price_textview"
+            android:textSize="15dp"/>
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_marginBottom="16dp"
+            android:onClick="Submitorder"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="14dp"
+            android:layout_gravity="center"
+            android:text="Order"/>
+        <TextView
+            android:layout_marginTop="17dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/white"
+            android:text="© Kasir Apps by Kelompok7 2021"
+            android:textSize="12sp"
+            android:layout_gravity="center_horizontal"
+            />
+
+    </LinearLayout>
+</ScrollView>
